@@ -12,7 +12,7 @@ app.use(cors());
 app.use(express.json());
 
 // Connect MongoDB
-mongoose.connect(process.env.MONGO_URI || "mongodb://127.0.0.1:27017/recipesdb", {
+mongoose.connect(process.env.MONGO_URI || "mongodb+srv://rupanjalibharti070_db_user:LQhEZf26c88zuVUm@cluster0.mcqf9fq.mongodb.net/?appName=Cluster0", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
